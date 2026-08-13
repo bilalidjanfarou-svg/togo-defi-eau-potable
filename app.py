@@ -52,17 +52,29 @@ fig_map.add_trace(go.Scattermap(
 ))
 
 fig_map.update_layout(legend=dict(orientation="h", y=1.02, x=0))
+
 fig_map.update_layout(margin=dict(l=0, r=0, t=30, b=0), height=600)
+
+# --- Graphique : % de cantons sans ouvrage par region ---
+couverture = cantons.groupby("region").apply(
+    lambda d: round((d["nb_ouvrages"] == 0).mean() * 100, 1)
+).reset_index(name="pct_sans_ouvrage").sort_values("pct_sans_ouvrage")
+
+fig_couverture = px.bar(
+    couverture, x="pct_sans_ouvrage", y="region", orientation="h",
+    text="pct_sans_ouvrage",
+    labels={"pct_sans_ouvrage": "% cantons sans ouvrage", "region": ""},
+    color="pct_sans_ouvrage", color_continuous_scale="Reds",
+)
+fig_couverture.update_traces(texttemplate="%{text}%", textposition="outside")
+fig_couverture.update_layout(height=350, coloraxis_showscale=False, xaxis_range=[0, 110])
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 app.layout = html.Div([
-    html.H1("Diagnostic Eau Potable - Togo"),
-    dbc.Row([
-        dbc.Col(dbc.Card(dbc.CardBody([html.H2(str(nb_ouvrages)), html.P("Ouvrages recenses")]))),
-        dbc.Col(dbc.Card(dbc.CardBody([html.H2(f"{nb_cantons_sans_ouvrage}/{nb_cantons}"), html.P("Cantons sans ouvrage")]))),
-    ], className="m-3"),
+
     dcc.Graph(figure=fig_map, className="m-3"),
+    dcc.Graph(figure=fig_couverture, className="m-3"),
 ])
 
 if __name__ == "__main__":
