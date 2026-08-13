@@ -4,6 +4,8 @@ import plotly.express as px
 import json
 from data_loader import load_all
 import plotly.graph_objects as go
+import pandas as pd
+
 
 cantons, points, points_full, sales, pop = load_all()
 
@@ -69,13 +71,31 @@ fig_couverture = px.bar(
 fig_couverture.update_traces(texttemplate="%{text}%", textposition="outside")
 fig_couverture.update_layout(height=350, coloraxis_showscale=False, xaxis_range=[0, 110])
 
+# --- Graphique : proxy de risque de panne par region (ouvrages COSO) ---
+coso_pts_full = points_full[points_full["source"] == "COSO"]
+
+risque_par_region = pd.crosstab(coso_pts_full["region"], coso_pts_full["proxy_risque_panne"], normalize="index") * 100
+risque_par_region = risque_par_region.reset_index().melt(id_vars="region", var_name="niveau", value_name="pct")
+
+ordre_niveaux = ["Faible risque", "Risque modéré", "Risque élevé"]
+couleurs_risque = {"Faible risque": "#1E8A7E", "Risque modéré": "#D4A62A", "Risque élevé": "#C0392B"}
+
+fig_risque = px.bar(
+    risque_par_region, x="region", y="pct", color="niveau",
+    category_orders={"niveau": ordre_niveaux},
+    color_discrete_map=couleurs_risque,
+    labels={"pct": "% d'ouvrages COSO", "region": "", "niveau": ""},
+)
+fig_risque.update_layout(height=400, legend=dict(orientation="h", y=-0.15))
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 app.layout = html.Div([
 
     dcc.Graph(figure=fig_map, className="m-3"),
     dcc.Graph(figure=fig_couverture, className="m-3"),
+    dcc.Graph(figure=fig_risque, className="m-3"),
 ])
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
