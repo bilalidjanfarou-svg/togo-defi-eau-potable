@@ -3,6 +3,7 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import json
 from data_loader import load_all
+import plotly.graph_objects as go
 
 cantons, points, points_full, sales, pop = load_all()
 
@@ -27,6 +28,30 @@ fig_map = px.choropleth_map(
     opacity=0.75,
     labels={"nb_ouvrages": "Nb ouvrages"},
 )
+
+# --- Points COSO et TdE superposes ---
+coso_pts = points[points["source"] == "COSO"]
+tde_pts = points[points["source"] == "TdE"]
+
+fig_map.add_trace(go.Scattermap(
+    lat=coso_pts.geometry.y, lon=coso_pts.geometry.x,
+    mode="markers",
+    marker=dict(size=7, color="#0B3D3A"),
+    name="Ouvrages COSO",
+    text=coso_pts["canton_nom"],
+    hovertemplate="<b>COSO</b><br>Canton: %{text}<extra></extra>",
+))
+
+fig_map.add_trace(go.Scattermap(
+    lat=tde_pts.geometry.y, lon=tde_pts.geometry.x,
+    mode="markers",
+    marker=dict(size=7, color="#D4A62A"),
+    name="Ouvrages TdE",
+    text=tde_pts["canton_nom"],
+    hovertemplate="<b>TdE</b><br>Canton: %{text}<extra></extra>",
+))
+
+fig_map.update_layout(legend=dict(orientation="h", y=1.02, x=0))
 fig_map.update_layout(margin=dict(l=0, r=0, t=30, b=0), height=600)
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
