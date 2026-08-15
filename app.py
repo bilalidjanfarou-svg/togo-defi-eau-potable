@@ -118,6 +118,33 @@ def build_tab_inondation():
     return html.Div([dcc.Graph(figure=fig_fri)])
 
 # ============================================================
+# ONGLET 5 : VENTES D'EAU
+# ============================================================
+def build_tab_ventes():
+    fig_ventes = px.line(
+        sales, x="annee", y="valeur_m3", color="categorie",
+        labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"},
+        markers=True,
+    )
+    fig_ventes.update_layout(height=500, legend=dict(orientation="h", y=-0.2))
+
+    derniere_annee = sales["annee"].max()
+    sales_derniere = sales[sales["annee"] == derniere_annee].sort_values("valeur_m3", ascending=True)
+    fig_derniere = px.bar(
+        sales_derniere, x="valeur_m3", y="categorie", orientation="h",
+        labels={"valeur_m3": f"Ventes m3 ({derniere_annee})", "categorie": ""},
+        color="valeur_m3", color_continuous_scale="Teal",
+    )
+    fig_derniere.update_layout(height=500, coloraxis_showscale=False)
+
+    return html.Div([
+        dbc.Row([
+            dbc.Col(dcc.Graph(figure=fig_ventes), md=6),
+            dbc.Col(dcc.Graph(figure=fig_derniere), md=6),
+        ]),
+    ])
+
+# ============================================================
 # LAYOUT PRINCIPAL
 # ============================================================
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
@@ -133,6 +160,7 @@ app.layout = html.Div([
         dcc.Tab(label="Fonctionnalite", value="tab-func"),
         dcc.Tab(label="Demographie", value="tab-demo"),
         dcc.Tab(label="Inondation", value="tab-flood"),
+        dcc.Tab(label="Ventes d'eau", value="tab-ventes"),
     ]),
     html.Div(id="tab-content", className="m-3"),
 ])
@@ -147,6 +175,8 @@ def render_tab(tab):
         return build_tab_demographie()
     elif tab == "tab-flood":
         return build_tab_inondation()
+    elif tab == "tab-ventes":
+        return build_tab_ventes()
     return html.Div()
 
 if __name__ == "__main__":
