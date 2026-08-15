@@ -100,6 +100,15 @@ fig_maintenance = px.pie(
     hole=0.5,
 )
 fig_maintenance.update_layout(height=400)
+
+# --- Graphique : population du canton vs nombre d'ouvrages ---
+fig_demo = px.scatter(
+    cantons, x="total_pop", y="nb_ouvrages", color="region",
+    hover_name="canton_nom",
+    labels={"total_pop": "Population du canton", "nb_ouvrages": "Nb ouvrages recenses"},
+    log_x=True,
+)
+fig_demo.update_layout(height=450, legend=dict(orientation="h", y=-0.15))
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 app.layout = html.Div([
@@ -108,6 +117,7 @@ app.layout = html.Div([
     dcc.Graph(figure=fig_couverture, className="m-3"),
     dcc.Graph(figure=fig_risque, className="m-3"),
     dcc.Graph(figure=fig_maintenance, className="m-3"),
+    dcc.Graph(figure=fig_demo, className="m-3"),
 ])
 
 
