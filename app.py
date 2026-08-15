@@ -11,6 +11,22 @@ TEAL_DARK = "#0B3D3A"
 TEAL = "#12645C"
 GOLD = "#D4A62A"
 BG = "#F5F7F6"
+
+TAB_STYLE = {
+    "padding": "12px 6px",
+    "fontWeight": "500",
+    "color": TEAL_DARK,
+    "border": "none",
+    "borderBottom": "3px solid #E3E8E6",
+}
+TAB_SELECTED_STYLE = {
+    "padding": "12px 6px",
+    "fontWeight": "700",
+    "color": TEAL_DARK,
+    "border": "none",
+    "borderBottom": f"3px solid {GOLD}",
+    "backgroundColor": "transparent",
+}
 nb_ouvrages = len(points_full)
 nb_cantons = len(cantons)
 nb_cantons_sans_ouvrage = (cantons["nb_ouvrages"] == 0).sum()
@@ -25,7 +41,7 @@ def build_tab_carte():
         cantons, geojson=geojson, locations=cantons.index, color="nb_ouvrages",
         hover_name="canton_nom",
         hover_data={"region": True, "total_pop": ":,.0f", "nb_ouvrages": True},
-        color_continuous_scale="BuGn", map_style="carto-positron",
+        color_continuous_scale=[[0, "#E8ECEA"], [0.5, "#1E8A7E"], [1, TEAL_DARK]], map_style="carto-positron",
         zoom=6.3, center={"lat": 8.6, "lon": 1.0}, opacity=0.75,
         labels={"nb_ouvrages": "Nb ouvrages"},
     )
@@ -96,10 +112,11 @@ def build_tab_fonctionnalite():
 # ============================================================
 def build_tab_demographie():
     fig_demo = px.scatter(
-        cantons, x="total_pop", y="nb_ouvrages", color="region", hover_name="canton_nom",
-        labels={"total_pop": "Population du canton", "nb_ouvrages": "Nb ouvrages recenses"},
-        log_x=True,
-    )
+    cantons, x="total_pop", y="nb_ouvrages", color="region", hover_name="canton_nom",
+    labels={"total_pop": "Population du canton", "nb_ouvrages": "Nb ouvrages recenses"},
+    log_x=True,
+    color_discrete_sequence=[TEAL_DARK, TEAL, "#1E8A7E", GOLD, "#8E6E00"],
+)
     fig_demo.update_layout(height=550, legend=dict(orientation="h", y=-0.15))
     return html.Div([dcc.Graph(figure=fig_demo)])
 
@@ -110,7 +127,7 @@ def build_tab_inondation():
     fig_fri = px.choropleth_map(
         cantons, geojson=geojson, locations=cantons.index, color="FRI",
         hover_name="canton_nom", hover_data={"region": True, "FRI": ":.2f", "nb_ouvrages": True},
-        color_continuous_scale="YlOrRd", map_style="carto-positron",
+        color_continuous_scale=[[0, "#EAF4F2"], [0.5, GOLD], [1, "#C0392B"]], map_style="carto-positron",
         zoom=6.3, center={"lat": 8.6, "lon": 1.0}, opacity=0.8,
     )
     fig_fri.add_trace(go.Scattermap(
@@ -125,10 +142,11 @@ def build_tab_inondation():
 # ============================================================
 def build_tab_ventes():
     fig_ventes = px.line(
-        sales, x="annee", y="valeur_m3", color="categorie",
-        labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"},
-        markers=True,
-    )
+    sales, x="annee", y="valeur_m3", color="categorie",
+    labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"},
+    markers=True,
+    color_discrete_sequence=px.colors.qualitative.Prism,
+)
     fig_ventes.update_layout(height=500, legend=dict(orientation="h", y=-0.2))
 
     derniere_annee = sales["annee"].max()
@@ -221,14 +239,18 @@ app.layout = html.Div([
             ]), style={"borderRadius": "12px", "border": "none", "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"})),
         ], className="g-3 my-3"),
 
-        dcc.Tabs(id="tabs", value="tab-carte", children=[
-            dcc.Tab(label="Cartographie", value="tab-carte"),
-            dcc.Tab(label="Fonctionnalite", value="tab-func"),
-            dcc.Tab(label="Demographie", value="tab-demo"),
-            dcc.Tab(label="Inondation", value="tab-flood"),
-            dcc.Tab(label="Ventes d'eau", value="tab-ventes"),
-            dcc.Tab(label="Recommandations", value="tab-reco"),
-        ]),
+       dcc.Tabs(
+            id="tabs", value="tab-carte",
+            children=[
+                dcc.Tab(label="Cartographie", value="tab-carte", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+                dcc.Tab(label="Fonctionnalite", value="tab-func", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+                dcc.Tab(label="Demographie", value="tab-demo", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+                dcc.Tab(label="Inondation", value="tab-flood", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+                dcc.Tab(label="Ventes d'eau", value="tab-ventes", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+                dcc.Tab(label="Recommandations", value="tab-reco", style=TAB_STYLE, selected_style=TAB_SELECTED_STYLE),
+            ],
+            style={"fontFamily": "Segoe UI, sans-serif"},
+        ),
         html.Div(id="tab-content", className="my-3"),
     ], fluid=True, style={"maxWidth": "1300px"}),
 ], style={"backgroundColor": BG, "minHeight": "100vh", "fontFamily": "Segoe UI, sans-serif"})
@@ -243,8 +265,6 @@ def render_tab(tab):
         return build_tab_demographie()
     elif tab == "tab-flood":
         return build_tab_inondation()
-    elif tab == "tab-ventes":
-        return build_tab_ventes()
     elif tab == "tab-ventes":
         return build_tab_ventes()
     elif tab == "tab-reco":
