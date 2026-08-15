@@ -7,7 +7,10 @@ import json
 from data_loader import load_all
 
 cantons, points, points_full, sales, pop = load_all()
-
+TEAL_DARK = "#0B3D3A"
+TEAL = "#12645C"
+GOLD = "#D4A62A"
+BG = "#F5F7F6"
 nb_ouvrages = len(points_full)
 nb_cantons = len(cantons)
 nb_cantons_sans_ouvrage = (cantons["nb_ouvrages"] == 0).sum()
@@ -145,25 +148,90 @@ def build_tab_ventes():
     ])
 
 # ============================================================
+# ONGLET 6 : RECOMMANDATIONS
+# ============================================================
+def carte_recommandation(titre, priorite, couleur, items):
+    return dbc.Card(dbc.CardBody([
+        dbc.Badge(priorite, style={"backgroundColor": couleur, "marginBottom": "8px"}),
+        html.H5(titre, className="mt-2"),
+        html.Ul([html.Li(item) for item in items]),
+    ]), className="h-100")
+
+def build_tab_recommandations():
+    return html.Div([
+        dbc.Row([
+            dbc.Col(carte_recommandation(
+                "Combler le vide de couverture", "PRIORITE 1", "#C0392B",
+                [
+                    "Plateaux, Kara et Centrale sont quasi non couverts par les donnees COSO/TdE",
+                    "Verifier sur le terrain avant tout nouveau forage (ouvrages non recenses possibles)",
+                    "Prioriser les cantons a forte population et zero ouvrage recense",
+                ]
+            ), md=6, className="mb-3"),
+            dbc.Col(carte_recommandation(
+                "Securiser la maintenance existante", "PRIORITE 1", "#C0392B",
+                [
+                    "Une part importante des ouvrages COSO n'a pas de plan de maintenance declare",
+                    "Exiger un plan formalise avant reception definitive",
+                    "Creer un registre de suivi post-reception",
+                ]
+            ), md=6, className="mb-3"),
+        ]),
+        dbc.Row([
+            dbc.Col(carte_recommandation(
+                "Proteger les ouvrages en zone inondable", "PRIORITE 2", "#D4A62A",
+                [
+                    "Plusieurs ouvrages se situent dans des cantons a risque d'inondation eleve (FRI)",
+                    "Integrer le FRI comme critere de choix d'implantation des futurs forages",
+                    "Auditer en priorite les ouvrages en zone a risque eleve",
+                ]
+            ), md=6, className="mb-3"),
+            dbc.Col(carte_recommandation(
+                "Fiabiliser la donnee elle-meme", "PRIORITE 2", "#D4A62A",
+                [
+                    "Une partie des ouvrages COSO a des coordonnees invalides a la source",
+                    "Aucun statut operationnel reel (panne/abandon) n'est disponible : a instaurer",
+                    "Georeferencement obligatoire a la reception de tout ouvrage",
+                ]
+            ), md=6, className="mb-3"),
+        ]),
+    ])
+# ============================================================
 # LAYOUT PRINCIPAL
 # ============================================================
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 app.layout = html.Div([
-    html.H1("Diagnostic Eau Potable - Togo", className="m-3"),
-    dbc.Row([
-        dbc.Col(dbc.Card(dbc.CardBody([html.H2(str(nb_ouvrages)), html.P("Ouvrages recenses")]))),
-        dbc.Col(dbc.Card(dbc.CardBody([html.H2(f"{nb_cantons_sans_ouvrage}/{nb_cantons}"), html.P("Cantons sans ouvrage")]))),
-    ], className="m-3"),
-    dcc.Tabs(id="tabs", value="tab-carte", children=[
-        dcc.Tab(label="Cartographie", value="tab-carte"),
-        dcc.Tab(label="Fonctionnalite", value="tab-func"),
-        dcc.Tab(label="Demographie", value="tab-demo"),
-        dcc.Tab(label="Inondation", value="tab-flood"),
-        dcc.Tab(label="Ventes d'eau", value="tab-ventes"),
-    ]),
-    html.Div(id="tab-content", className="m-3"),
-])
+    html.Div([
+        html.H1("Diagnostic de l'acces a l'eau potable au Togo",
+                style={"color": "white", "fontWeight": "700", "marginBottom": "4px"}),
+        html.P("Togo AI Lab - Data Challenge Environnement, Defi 1",
+               style={"color": GOLD, "fontSize": "14px", "marginBottom": "0"}),
+    ], style={"background": f"linear-gradient(120deg, {TEAL_DARK}, {TEAL})", "padding": "28px 34px"}),
+
+    dbc.Container([
+        dbc.Row([
+            dbc.Col(dbc.Card(dbc.CardBody([
+                html.H2(str(nb_ouvrages), style={"color": TEAL, "fontWeight": "700"}),
+                html.P("Ouvrages recenses", style={"marginBottom": "0", "opacity": 0.7}),
+            ]), style={"borderRadius": "12px", "border": "none", "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"})),
+            dbc.Col(dbc.Card(dbc.CardBody([
+                html.H2(f"{nb_cantons_sans_ouvrage}/{nb_cantons}", style={"color": "#C0392B", "fontWeight": "700"}),
+                html.P("Cantons sans ouvrage", style={"marginBottom": "0", "opacity": 0.7}),
+            ]), style={"borderRadius": "12px", "border": "none", "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"})),
+        ], className="g-3 my-3"),
+
+        dcc.Tabs(id="tabs", value="tab-carte", children=[
+            dcc.Tab(label="Cartographie", value="tab-carte"),
+            dcc.Tab(label="Fonctionnalite", value="tab-func"),
+            dcc.Tab(label="Demographie", value="tab-demo"),
+            dcc.Tab(label="Inondation", value="tab-flood"),
+            dcc.Tab(label="Ventes d'eau", value="tab-ventes"),
+            dcc.Tab(label="Recommandations", value="tab-reco"),
+        ]),
+        html.Div(id="tab-content", className="my-3"),
+    ], fluid=True, style={"maxWidth": "1300px"}),
+], style={"backgroundColor": BG, "minHeight": "100vh", "fontFamily": "Segoe UI, sans-serif"})
 
 @app.callback(Output("tab-content", "children"), Input("tabs", "value"))
 def render_tab(tab):
@@ -177,7 +245,12 @@ def render_tab(tab):
         return build_tab_inondation()
     elif tab == "tab-ventes":
         return build_tab_ventes()
+    elif tab == "tab-ventes":
+        return build_tab_ventes()
+    elif tab == "tab-reco":
+        return build_tab_recommandations()
     return html.Div()
+   
 
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
