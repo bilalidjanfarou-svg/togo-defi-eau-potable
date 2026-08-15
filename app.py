@@ -57,6 +57,7 @@ def build_tab_carte():
         marker=dict(size=7, color="#D4A62A"), name="Ouvrages TdE",
         text=tde_pts["canton_nom"], hovertemplate="<b>TdE</b><br>Canton: %{text}<extra></extra>",
     ))
+    fig_map.update_layout(title="Repartition des ouvrages par canton")
     fig_map.update_layout(legend=dict(orientation="h", y=1.02, x=0), margin=dict(l=0, r=0, t=30, b=0), height=550)
 
     couverture = cantons.groupby("region").apply(
@@ -68,6 +69,7 @@ def build_tab_carte():
         color="pct_sans_ouvrage", color_continuous_scale="Reds",
     )
     fig_couverture.update_traces(texttemplate="%{text}%", textposition="outside")
+    fig_couverture.update_layout(title="% de cantons sans aucun ouvrage recense, par region")
     fig_couverture.update_layout(height=350, coloraxis_showscale=False, xaxis_range=[0, 110])
 
     return html.Div([
@@ -89,6 +91,7 @@ def build_tab_fonctionnalite():
         labels={"pct": "% d'ouvrages COSO", "region": "", "niveau": ""},
     )
     fig_risque.update_layout(height=400, legend=dict(orientation="h", y=-0.15))
+    fig_risque.update_layout(title="Risque de panne par region")
 
     maintenance = coso_pts_full["maintenance_manquante"].map({0: "Plan existant", 1: "Aucun plan"})
     maintenance = maintenance.fillna("Non renseigne")
@@ -98,6 +101,7 @@ def build_tab_fonctionnalite():
         color_discrete_map={"Plan existant": "#1E8A7E", "Aucun plan": "#C0392B", "Non renseigne": "#9AA6A4"},
         hole=0.5,
     )
+    fig_maintenance.update_layout(title="Plan de maintenance declare (ouvrages COSO)")
     fig_maintenance.update_layout(height=400)
 
     return html.Div([
@@ -118,6 +122,7 @@ def build_tab_demographie():
     color_discrete_sequence=[TEAL_DARK, TEAL, "#1E8A7E", GOLD, "#8E6E00"],
 )
     fig_demo.update_layout(height=550, legend=dict(orientation="h", y=-0.15))
+    fig_demo.update_layout(title="Repartition des ouvrages par canton")
     return html.Div([dcc.Graph(figure=fig_demo)])
 
 # ============================================================
@@ -142,11 +147,12 @@ def build_tab_inondation():
 # ============================================================
 def build_tab_ventes():
     fig_ventes = px.line(
-    sales, x="annee", y="valeur_m3", color="categorie",
-    labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"},
-    markers=True,
-    color_discrete_sequence=px.colors.qualitative.Prism,
-)
+        sales, x="annee", y="valeur_m3", color="categorie",
+        labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"},
+        markers=True,
+        color_discrete_sequence=px.colors.qualitative.Prism,
+    )
+    fig_ventes.update_layout(title="Evolution des ventes d'eau par categorie (2018-2022)")
     fig_ventes.update_layout(height=500, legend=dict(orientation="h", y=-0.2))
 
     derniere_annee = sales["annee"].max()
@@ -156,6 +162,7 @@ def build_tab_ventes():
         labels={"valeur_m3": f"Ventes m3 ({derniere_annee})", "categorie": ""},
         color="valeur_m3", color_continuous_scale="Teal",
     )
+    fig_derniere.update_layout(title=f"Ventes par categorie - {derniere_annee}")
     fig_derniere.update_layout(height=500, coloraxis_showscale=False)
 
     return html.Div([
