@@ -1,286 +1,286 @@
-source,canton_nom,region,prefecture_nom,FRI,fri_classe,total_pop,proxy_risque_panne,coord_invalide,location_name,latitude,longitude,forage_chateau_nom
-COSO,Balanka,Centrale,C04,0.08776862347742136,Modéré,9922.117982,Faible risque,False,ALEGBA,8.824055,1.606965,
-COSO,Koussountou,Centrale,C04,0.08074694899684193,Modéré,24763.546913000002,Faible risque,False,ATONTOMI,8.888017,1.577222,
-COSO,Tchamba,Centrale,C04,0.2408882202204571,Élevé,51412.713723,Risque élevé,False,BELAGNI,8.918368,1.614907,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,AGBANSIKITI,8.691495,1.619747,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,ATAFA 2,8.694493,1.563569,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,BOLEA,8.528625,1.612648,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,KALA 2,8.673588,1.604208,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Faible risque,False,ODORIN,8.594615,1.616948,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,SOLIMBIA,8.764615,1.617617,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,ASSERE,9.799855,1.298193,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,KAGNISSI,9.7638567,1.3124717,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,KAWA,9.73982,1.3079933,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,KPANAHORE,9.75361,1.331408,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,SOMSIA,9.7106983,1.3185617,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,WAZE,9.744758,1.320824,
-COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,KADJANGA,9.724313,1.35165,
-COSO,Kémérida,Kara,D03,0.06312776105114662,Faible,5699.819119,Faible risque,False,TERODA,9.671325,1.357624,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,NAPOGO,11.10989,-0.081831,
-COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,SANDOGO,11.099809,-0.067271,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,WOURI-WOURI,11.116633,-0.03386,
-COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,ZAMISSI,11.089657,-0.066757,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,ZINTANGO,11.125808,-0.08592,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,BARGOUNDE,11.081848,0.015431,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,KODAGO,11.10398,0.042313,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,SAYODE,11.07053,0.019593,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,TIMANGA (CINKASSE),11.083669,0.031963,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,YIEGOU (CINKASSE),11.098188,0.036734,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,BINGOULA,11.1176724,-0.081247,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,GNOAGA CENTRE,11.105457,-0.103617,
-COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,YOUMAKOU,11.099301,-0.10443,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,KOULTAMSÉ,11.125092,-0.110754,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,SINOGO,11.125092,-0.110754,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,False,TENNOGO,11.106438,-0.112391,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque élevé,False,ZOUBEKO,11.110269,-0.127504,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,False,DATOULONTE (TIMBOU),10.989956,0.141467,
-COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque modéré,False,NAMBUITITE TIMBOU,11.033372,0.070502,
-COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,TOMONLE,10.884821,0.669152,
-COSO,Mandouri,Savanes,E02,0.19156734783243143,Élevé,18144.133,Risque modéré,False,MANDOURI CENTRE,10.846096,0.817863,
-COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque modéré,False,NALI ANGOH,10.0454774,0.4536523,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,False,KARKOU,10.48327,0.7693367,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,False,IBASSANDJA,10.4859533,0.7485683,
-COSO,Sissiak,Savanes,E06,0.08680970565627284,Modéré,21951.207428,Risque modéré,False,SIBIOGUE,10.771387,0.091253,
-COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,KPINKPARBAGOU 1,10.76495,-0.035277,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,False,KOULMATIK-MIRE,10.77684,0.052255,
-COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,KPINKPARBAGOU 2,10.7588133,-0.0154217,
-COSO,Sissiak,Savanes,E06,0.08680970565627284,Modéré,21951.207428,Risque modéré,False,PIABRIBAGOU,10.780718,0.127192,
-COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,NALONGUE 1,10.7307983,-0.0069233,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,MAGNA,10.3384158,0.4571656,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,FOMBORO,10.3531358,0.4777628,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,DOUANE-EST,10.3392083,0.4729033,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,DJABOU,10.3644199,0.4783607,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,GNANGBANDI (MANGO),10.32394,0.43644,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque modéré,False,GNABADJOUANI 2,10.966555,0.13158,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Faible risque,False,YOBRE 1,10.938128,0.094391,
-COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque élevé,False,DJIRIDJO,10.01441,0.5215,
-COSO,Naompoch,Kara,D04,0.11413936699690165,Modéré,12702.092056000001,Risque élevé,False,SAPOLI,9.844028,0.704147,
-COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,False,LENIDO,9.946635,0.5972867,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,SAMBROUGUE,10.9115583,-0.005415,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,POAMONGUE,10.853297,0.063415,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,False,LOTOGOU CENTRE,10.798171,0.025296,
-COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,False,MAGNA BAS,10.6417033,0.0908567,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,KPATCHIANGBANE 1,10.9534483,-0.0034733,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,BASSOUDOUGOU,10.9422383,0.0246017,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,NAKORGOU,10.933573,0.068247,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,KARIATA,10.893852,0.061661,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,TCHANDANA,10.934593,0.11905,
-COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,False,KEREKETE,10.4833243,0.2093732,
-COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,False,KPANDJINI,10.5348583,0.32996,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Faible risque,False,DJE-DJABOU,10.3179254,0.7220782,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,False,GBATENI,10.2540124,0.7433078,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,False,NAKPATI,10.3497677,0.8183641,
-COSO,Nanergou,Savanes,E07,0.08035385820283117,Modéré,12015.208568,Risque élevé,False,TCHANKOUNKOUNKONG,10.936937,0.146811,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,TAMI-CENTRE,10.858083,0.040576,
-COSO,Warkambou,Savanes,E07,0.06753767007001664,Faible,7144.5338360000005,Risque élevé,False,WARKAMBOU CENTRE 1,10.804232,-0.013278,
-COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,TAMBATE,10.935298,0.64414,
-COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,SANLOAGA,10.968935,0.786435,
-COSO,Sangou,Savanes,E06,0.04103111557416093,Faible,4302.68124,Risque élevé,False,PATKONE TOMONG,10.6047967,0.0393583,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,NATCHARE,10.8657,0.031187,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque élevé,False,KABOLI,8.746372,1.575045,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque élevé,False,ZOLALE,11.093908,0.029553,
-COSO,Kountoire,Savanes,E05,0.08401723923531405,Modéré,15218.455194,Risque élevé,False,NASSIKOU,10.165172,0.729873,
-COSO,Kountoire,Savanes,E05,0.08401723923531405,Modéré,15218.455194,Risque élevé,False,TIEPAH,10.178085,0.612965,
-COSO,Sagbiebou,Savanes,E05,0.0745028629053183,Faible,12685.904,Risque élevé,False,BAOULE,10.263224,0.578949,
-COSO,Balanka,Centrale,C04,0.08776862347742136,Modéré,9922.117982,Risque modéré,False,DOGODE,8.786747,1.630917,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,BOADE CENTRE,11.137485,-0.081247,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,KODINZOAGA,11.139244,-0.113093,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Faible risque,True,LAKABA,0.0,0.0,
-COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque élevé,True,SAMAI,0.0,0.0,
-COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,ASSIMA,,,
-COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,BOMWAÏ,0.0,0.0,
-COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,TERODA,,,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,GANGA 1,0.0,0.0,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,GANGA 2,0.0,0.0,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,KASSOU 2,0.0,0.0,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,KORENZOAGA 2,0.0,0.0,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,True,KOKNOGO,0.0,0.0,
-COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,True,LANGANDE,0.0,0.0,
-COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,FONWORGOU,0.0,0.0,
-COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,NADJOUNDI CENTRE,0.0,0.0,
-COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,TIMANGUE (NADJOUNDI),0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,NAMOUDJOATE 2,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,PIZOSKO,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,WAMBAGOU,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque élevé,True,DJALOTOUGOU,,,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,KALAGOU (TIMBOU),0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,KALKANTINDE,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,KPALMATONGUE CENTRE,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,NANLONGUE 1,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,NASSABLE 1,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,PIZOSKE,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,SAFOBE 1,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,SOUKOUDOUME FOFANA,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,TAMONDJOARE 1 (TIMBOU),0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,TCHIMBIANGBONGUE,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,TIMBOU CENTRE,0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,YIEGOU (TIMBOU),0.0,0.0,
-COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,YOABOUANI,0.0,0.0,
-COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,True,DJABDJOARE 2,0.0,0.0,
-COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,True,GNANLE,,,
-COSO,Papri,Savanes,E03,0.0737287697051754,Faible,15016.225,Risque modéré,True,PAPRI-CENTRE,0.0,0.0,
-COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Faible risque,True,POGNO CENTRE,0.0,0.0,
-COSO,Kourientre,Savanes,E07,0.09666331165725656,Modéré,11143.930556000001,Risque élevé,True,TALGUIMBOUNTE 1,0.0,0.0,
-COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Faible risque,True,DJANKOGUE,0.0,0.0,
-COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,DJAPIEMBAGOU,0.0,0.0,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,SIMBO,,,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,True,TCHAMONGA CENTRE,,,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,True,TOPIENGA,,,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,TODJAKOU,,,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,KOROKOU,,,
-COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Risque modéré,True,TAMPIALIME CENTRE 2,,,
-COSO,Faré,Savanes,E04,0.06591866988144417,Faible,4530.68,Faible risque,True,FAREO,,,
-COSO,Faré,Savanes,E04,0.06591866988144417,Faible,4530.68,Risque modéré,True,TADERI,,,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,BONZOUKOU,,,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,TCHIRI,,,
-COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,NAKORKOU,,,
-COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,KONGO-MOBA,,,
-COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,TOUONTONGOU,,,
-COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,KONGO-BOUMBOUNI,,,
-COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,KONGO-MOSSI,,,
-COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque modéré,True,TONGA 2,,,
-COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Faible risque,True,KALAO,,,
-COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque élevé,True,SAMOMONI,,,
-COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,True,N'KPE 2,,,
-COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,True,GNOLI,,,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,True,NAGRE,,,
-COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,True,NAGUEYIEGOU,0.0,0.0,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,KOUKDAGOU,,,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,BOUTASSOUGOU,,,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,POMONGUE,,,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,DASSOUTE-BAGOU,,,
-COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,DJABIENE,,,
-COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,KOUNDOUNGOU 1,0.0,0.0,
-COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,WANTAMBONGUE 1,,,
-COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,True,SIGUIBAGOU 2,,,
-COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,True,LARSIOK,0.0,0.0,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque modéré,True,SANPEDIGBENDE 2,0.0,0.0,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,NASSIEGOU,,,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,KPIMONE,,,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,FALNAGUE 1,,,
-COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,NAKPALI 2,,,
-COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,TAMBINAMONE,,,
-COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,KOUWAKOU,,,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,NABILE,,,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,NADJANKARKOU,0.0,0.0,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,SAKOU,,,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,DJEBOURI,,,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque modéré,True,WOGOU/VILLAGE,0.0,0.0,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,FIEGOU,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,TONTONDI,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,BAKANOU,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,NATCHITONI,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,TCHANKPERE,0.0,0.0,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,NAMOUMALE,0.0,0.0,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,KPENTCHANI,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,TCHINTCHEREGA,0.0,0.0,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,MOGOU CENTRE,0.0,0.0,
-COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,BOMWAÏ,0.0,0.0,
-COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,BOMWAÏ,0.0,0.0,
-COSO,Poissongui,Savanes,E07,0.08534795074679136,Modéré,7223.48227,Risque élevé,True,POISSONGUI 1,0.0,0.0,
-COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Risque élevé,True,POGNO CENTRE,0.0,0.0,
-COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque élevé,True,NALI CENTRE,,,
-COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,GALANGASHIE CENTRE,0.0,0.0,
-COSO,Sangou,Savanes,E06,0.04103111557416093,Faible,4302.68124,Risque élevé,True,SANGOU CENTRE,,,
-COSO,Kourientre,Savanes,E07,0.09666331165725656,Modéré,11143.930556000001,Risque élevé,True,KOURIENTRE CENTRE,,,
-COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,KORBONGOU CENTRE,,,
-COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,GBETI,,,
-COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque élevé,True,KASSOU 1,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,SAFOBE 2,0.0,0.0,
-COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque modéré,True,TOULEBA,,,
-COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,TCHANGUI,,,
-COSO,Sanfatoute,Savanes,E07,0.0695457727810199,Faible,9150.518297,Risque modéré,True,TIDONTE CENTRE,0.0,0.0,
-COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,DAKPALI 1,,,
-COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Risque élevé,True,EDOGA 2,0.0,0.0,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,DJOULE-TCHAMONGA,,,
-COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,N'GAMBI,,,
-COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,KORBONGOU CENTRE,,,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,BONDANTCHALE (SAM-NABA),0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,SALAMOU,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,YANGBONGBONGUE,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,TINTARGUINE 2,0.0,0.0,
-COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,TINTARGUINE 1,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,BOUSSANGA 1,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,GOYAMBA 1,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,GOYAMBA 2,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,KALYADA,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,KOMOULOGOU 2,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,KOWONGO,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,KPALBIAGA 1,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,KPALBIAGA 2,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,NONLEDE,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,PIZOSGO 1,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,POGOYOGO 2,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,SIAMBIN,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,WOMNOGO,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,GANGA,,,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,KPÉKIBONGUE,0.0,0.0,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,SANDJAK 2,,,
-COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,NOK-DONG,0.0,0.0,
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Château de Dikame
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Château de Fidokpui
-TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,Forage B'16Bis
-TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,Forage C'10
-TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,Forage Massekope
-TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Kpétsou,Maritime,A03,0.08726239604091546,Modéré,13667.775344000001,Non évalué (donnée indisponible),False,,,,Forage de Kpessou
-TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Togoville,Maritime,A06,0.12052462137294964,Modéré,22257.389248,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Togoville,Maritime,A06,0.12052462137294964,Modéré,22257.389248,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Afagnangan,Maritime,A03,0.2814943944922352,Élevé,17676.188806000002,Non évalué (donnée indisponible),False,,,,Forage de Saint Jean de Dieu
-TdE,Agome-Glozou,Maritime,A03,0.09777326439782358,Modéré,11154.366591,Non évalué (donnée indisponible),False,,,,Forage du Château de Agbetiko
-TdE,Dagbati,Maritime,A06,0.08746017833982817,Modéré,26317.452928000002,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Dzrékpo,Maritime,A06,0.09080952168892195,Modéré,16098.905780000001,Non évalué (donnée indisponible),False,,,,Nsp
-TdE,Aflao-Sagbado,Maritime,A04,0.5363070271574523,Élevé,429551.976791,Non évalué (donnée indisponible),False,,,,Forage de Lankouvi
-TdE,Aflao-Sagbado,Maritime,A04,0.5363070271574523,Élevé,429551.976791,Non évalué (donnée indisponible),False,,,,Forage de Kleme
-TdE,Aklakou,Maritime,A05,0.12809816331714366,Élevé,16023.308526,Non évalué (donnée indisponible),False,,,,Forage de Aklakou
-TdE,Fiata,Maritime,A05,0.08385405217716504,Modéré,21109.450521,Non évalué (donnée indisponible),False,,,,Forage de Attoeta
-TdE,Ganavé,Maritime,A05,0.07883543587835735,Faible,13326.048686,Non évalué (donnée indisponible),False,,,,Forage de Fiata
-TdE,Dalavé,Maritime,A08,0.21194754158122667,Élevé,24395.010801,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Dalavé,Maritime,A08,0.21194754158122667,Élevé,24395.010801,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,Forage
-TdE,Tchamba,Centrale,C04,0.2408882202204571,Élevé,51412.713723,Non évalué (donnée indisponible),False,,,,Larini
-TdE,Agbodrafo,Maritime,A05,0.49207349082298196,Élevé,89404.008475,Non évalué (donnée indisponible),False,,,,Forage de Kpeme
-TdE,Wahala,Plateaux,B07,0.16539548574364726,Élevé,45121.113775,Non évalué (donnée indisponible),False,,,,Forage de Château d'Eau
+source,canton_nom,region,prefecture_nom,FRI,fri_classe,total_pop,proxy_risque_panne,coord_invalide,score_statut,maintenance_manquante,location_name,latitude,longitude,forage_chateau_nom
+COSO,Balanka,Centrale,C04,0.08776862347742136,Modéré,9922.117982,Faible risque,False,0.0,0.0,ALEGBA,8.824055,1.606965,
+COSO,Koussountou,Centrale,C04,0.08074694899684193,Modéré,24763.546913000002,Faible risque,False,0.0,0.0,ATONTOMI,8.888017,1.577222,
+COSO,Tchamba,Centrale,C04,0.2408882202204571,Élevé,51412.713723,Risque élevé,False,1.0,1.0,BELAGNI,8.918368,1.614907,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,0.0,1.0,AGBANSIKITI,8.691495,1.619747,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,1.0,0.0,ATAFA 2,8.694493,1.563569,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,0.0,1.0,BOLEA,8.528625,1.612648,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,1.0,0.0,KALA 2,8.673588,1.604208,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Faible risque,False,0.0,0.0,ODORIN,8.594615,1.616948,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque modéré,False,0.0,1.0,SOLIMBIA,8.764615,1.617617,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,ASSERE,9.799855,1.298193,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,KAGNISSI,9.7638567,1.3124717,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,KAWA,9.73982,1.3079933,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,KPANAHORE,9.75361,1.331408,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,SOMSIA,9.7106983,1.3185617,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,WAZE,9.744758,1.320824,
+COSO,Pagouda,Kara,D03,0.08275879046077705,Modéré,16463.050477,Faible risque,False,0.0,0.0,KADJANGA,9.724313,1.35165,
+COSO,Kémérida,Kara,D03,0.06312776105114662,Faible,5699.819119,Faible risque,False,0.0,0.0,TERODA,9.671325,1.357624,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,NAPOGO,11.10989,-0.081831,
+COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,0.0,1.0,SANDOGO,11.099809,-0.067271,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,WOURI-WOURI,11.116633,-0.03386,
+COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,0.0,1.0,ZAMISSI,11.089657,-0.066757,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,ZINTANGO,11.125808,-0.08592,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,BARGOUNDE,11.081848,0.015431,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,0.0,0.0,KODAGO,11.10398,0.042313,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,SAYODE,11.07053,0.019593,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,0.0,0.0,TIMANGA (CINKASSE),11.083669,0.031963,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,YIEGOU (CINKASSE),11.098188,0.036734,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,BINGOULA,11.1176724,-0.081247,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,False,0.0,1.0,GNOAGA CENTRE,11.105457,-0.103617,
+COSO,Noaga,Savanes,E01,0.054625803241745804,Faible,1351.872147,Risque modéré,False,0.0,1.0,YOUMAKOU,11.099301,-0.10443,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,0.0,1.0,KOULTAMSÉ,11.125092,-0.110754,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,0.0,1.0,SINOGO,11.125092,-0.110754,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,False,0.0,0.0,TENNOGO,11.106438,-0.112391,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque élevé,False,1.0,1.0,ZOUBEKO,11.110269,-0.127504,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,False,0.0,1.0,DATOULONTE (TIMBOU),10.989956,0.141467,
+COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque modéré,False,0.0,1.0,NAMBUITITE TIMBOU,11.033372,0.070502,
+COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,1.0,1.0,TOMONLE,10.884821,0.669152,
+COSO,Mandouri,Savanes,E02,0.19156734783243143,Élevé,18144.133,Risque modéré,False,0.0,1.0,MANDOURI CENTRE,10.846096,0.817863,
+COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque modéré,False,1.0,0.0,NALI ANGOH,10.0454774,0.4536523,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,False,1.0,0.0,KARKOU,10.48327,0.7693367,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,False,1.0,0.0,IBASSANDJA,10.4859533,0.7485683,
+COSO,Sissiak,Savanes,E06,0.08680970565627284,Modéré,21951.207428,Risque modéré,False,0.0,1.0,SIBIOGUE,10.771387,0.091253,
+COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,0.0,0.0,KPINKPARBAGOU 1,10.76495,-0.035277,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,False,1.0,1.0,KOULMATIK-MIRE,10.77684,0.052255,
+COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,0.0,0.0,KPINKPARBAGOU 2,10.7588133,-0.0154217,
+COSO,Sissiak,Savanes,E06,0.08680970565627284,Modéré,21951.207428,Risque modéré,False,0.0,1.0,PIABRIBAGOU,10.780718,0.127192,
+COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Faible risque,False,0.0,0.0,NALONGUE 1,10.7307983,-0.0069233,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,1.0,1.0,MAGNA,10.3384158,0.4571656,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,1.0,1.0,FOMBORO,10.3531358,0.4777628,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,1.0,1.0,DOUANE-EST,10.3392083,0.4729033,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,1.0,1.0,DJABOU,10.3644199,0.4783607,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,False,1.0,1.0,GNANGBANDI (MANGO),10.32394,0.43644,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque modéré,False,1.0,0.0,GNABADJOUANI 2,10.966555,0.13158,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Faible risque,False,0.0,0.0,YOBRE 1,10.938128,0.094391,
+COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque élevé,False,1.0,1.0,DJIRIDJO,10.01441,0.5215,
+COSO,Naompoch,Kara,D04,0.11413936699690165,Modéré,12702.092056000001,Risque élevé,False,1.0,1.0,SAPOLI,9.844028,0.704147,
+COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,False,0.0,1.0,LENIDO,9.946635,0.5972867,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,1.0,1.0,SAMBROUGUE,10.9115583,-0.005415,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,1.0,1.0,POAMONGUE,10.853297,0.063415,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,False,1.0,1.0,LOTOGOU CENTRE,10.798171,0.025296,
+COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,False,1.0,1.0,MAGNA BAS,10.6417033,0.0908567,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,1.0,1.0,KPATCHIANGBANE 1,10.9534483,-0.0034733,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,1.0,1.0,BASSOUDOUGOU,10.9422383,0.0246017,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,1.0,1.0,NAKORGOU,10.933573,0.068247,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,1.0,1.0,KARIATA,10.893852,0.061661,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,False,1.0,1.0,TCHANDANA,10.934593,0.11905,
+COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,False,1.0,1.0,KEREKETE,10.4833243,0.2093732,
+COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,False,1.0,1.0,KPANDJINI,10.5348583,0.32996,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Faible risque,False,0.0,0.0,DJE-DJABOU,10.3179254,0.7220782,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,False,1.0,1.0,GBATENI,10.2540124,0.7433078,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,False,1.0,1.0,NAKPATI,10.3497677,0.8183641,
+COSO,Nanergou,Savanes,E07,0.08035385820283117,Modéré,12015.208568,Risque élevé,False,1.0,1.0,TCHANKOUNKOUNKONG,10.936937,0.146811,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,1.0,1.0,TAMI-CENTRE,10.858083,0.040576,
+COSO,Warkambou,Savanes,E07,0.06753767007001664,Faible,7144.5338360000005,Risque élevé,False,1.0,1.0,WARKAMBOU CENTRE 1,10.804232,-0.013278,
+COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,1.0,1.0,TAMBATE,10.935298,0.64414,
+COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,False,1.0,1.0,SANLOAGA,10.968935,0.786435,
+COSO,Sangou,Savanes,E06,0.04103111557416093,Faible,4302.68124,Risque élevé,False,1.0,1.0,PATKONE TOMONG,10.6047967,0.0393583,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,False,1.0,1.0,NATCHARE,10.8657,0.031187,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque élevé,False,1.0,1.0,KABOLI,8.746372,1.575045,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque élevé,False,1.0,1.0,ZOLALE,11.093908,0.029553,
+COSO,Kountoire,Savanes,E05,0.08401723923531405,Modéré,15218.455194,Risque élevé,False,1.0,1.0,NASSIKOU,10.165172,0.729873,
+COSO,Kountoire,Savanes,E05,0.08401723923531405,Modéré,15218.455194,Risque élevé,False,1.0,1.0,TIEPAH,10.178085,0.612965,
+COSO,Sagbiebou,Savanes,E05,0.0745028629053183,Faible,12685.904,Risque élevé,False,1.0,1.0,BAOULE,10.263224,0.578949,
+COSO,Balanka,Centrale,C04,0.08776862347742136,Modéré,9922.117982,Risque modéré,False,0.0,1.0,DOGODE,8.786747,1.630917,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Faible risque,False,0.0,0.0,BOADE CENTRE,11.137485,-0.081247,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Risque modéré,False,0.0,1.0,KODINZOAGA,11.139244,-0.113093,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Faible risque,True,0.0,0.0,LAKABA,0.0,0.0,
+COSO,Kaboli,Centrale,C04,0.09316663475903039,Modéré,33900.633549,Risque élevé,True,1.0,1.0,SAMAI,0.0,0.0,
+COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,0.0,0.0,ASSIMA,,,
+COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,0.0,0.0,BOMWAÏ,0.0,0.0,
+COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,0.0,0.0,TERODA,,,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,0.0,1.0,GANGA 1,0.0,0.0,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,0.0,1.0,GANGA 2,0.0,0.0,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,0.0,1.0,KASSOU 2,0.0,0.0,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque modéré,True,0.0,1.0,KORENZOAGA 2,0.0,0.0,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,True,0.0,0.0,KOKNOGO,0.0,0.0,
+COSO,Gouloungoussi,Savanes,E01,0.06152353732469032,Faible,4300.628436,Faible risque,True,0.0,0.0,LANGANDE,0.0,0.0,
+COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,0.0,1.0,FONWORGOU,0.0,0.0,
+COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,0.0,1.0,NADJOUNDI CENTRE,0.0,0.0,
+COSO,Nadjoundi,Savanes,E01,0.07020184413424775,Faible,10168.010763999999,Risque modéré,True,0.0,1.0,TIMANGUE (NADJOUNDI),0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,0.0,1.0,NAMOUDJOATE 2,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,0.0,1.0,PIZOSKO,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque modéré,True,0.0,1.0,WAMBAGOU,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque élevé,True,1.0,1.0,DJALOTOUGOU,,,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,KALAGOU (TIMBOU),0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,KALKANTINDE,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,KPALMATONGUE CENTRE,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,NANLONGUE 1,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,NASSABLE 1,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,PIZOSKE,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,SAFOBE 1,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,SOUKOUDOUME FOFANA,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,TAMONDJOARE 1 (TIMBOU),0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,TCHIMBIANGBONGUE,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,TIMBOU CENTRE,0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,YIEGOU (TIMBOU),0.0,0.0,
+COSO,Timbou,Savanes,E01,0.08334983585823232,Modéré,16092.887444,Risque modéré,True,0.0,1.0,YOABOUANI,0.0,0.0,
+COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,True,1.0,1.0,DJABDJOARE 2,0.0,0.0,
+COSO,Koundjoaré,Savanes,E02,0.10923738545553606,Modéré,17254.4925,Risque élevé,True,1.0,1.0,GNANLE,,,
+COSO,Papri,Savanes,E03,0.0737287697051754,Faible,15016.225,Risque modéré,True,1.0,0.0,PAPRI-CENTRE,0.0,0.0,
+COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Faible risque,True,0.0,0.0,POGNO CENTRE,0.0,0.0,
+COSO,Kourientre,Savanes,E07,0.09666331165725656,Modéré,11143.930556000001,Risque élevé,True,1.0,1.0,TALGUIMBOUNTE 1,0.0,0.0,
+COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Faible risque,True,0.0,0.0,DJANKOGUE,0.0,0.0,
+COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,1.0,1.0,DJAPIEMBAGOU,0.0,0.0,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,1.0,1.0,SIMBO,,,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,True,0.0,1.0,TCHAMONGA CENTRE,,,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque modéré,True,0.0,1.0,TOPIENGA,,,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,1.0,1.0,TODJAKOU,,,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,1.0,1.0,KOROKOU,,,
+COSO,Tampialime,Savanes,E06,0.07181330483461468,Faible,11006.497424000001,Risque modéré,True,0.0,1.0,TAMPIALIME CENTRE 2,,,
+COSO,Faré,Savanes,E04,0.06591866988144417,Faible,4530.68,Faible risque,True,0.0,0.0,FAREO,,,
+COSO,Faré,Savanes,E04,0.06591866988144417,Faible,4530.68,Risque modéré,True,0.0,1.0,TADERI,,,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,1.0,1.0,BONZOUKOU,,,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,1.0,1.0,TCHIRI,,,
+COSO,Mango,Savanes,E04,0.1485936522422084,Élevé,46142.328,Risque élevé,True,1.0,1.0,NAKORKOU,,,
+COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,0.0,1.0,KONGO-MOBA,,,
+COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,0.0,1.0,TOUONTONGOU,,,
+COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,0.0,1.0,KONGO-BOUMBOUNI,,,
+COSO,Namaré,Savanes,E07,0.09240485384951466,Modéré,11800.121864,Risque modéré,True,0.0,1.0,KONGO-MOSSI,,,
+COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque modéré,True,0.0,1.0,TONGA 2,,,
+COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Faible risque,True,0.0,0.0,KALAO,,,
+COSO,Biankouri,Savanes,E01,0.07192656944218638,Faible,15559.899867999999,Risque élevé,True,1.0,1.0,SAMOMONI,,,
+COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,True,0.0,1.0,N'KPE 2,,,
+COSO,Takpamba,Savanes,E05,0.12152908397245658,Modéré,11565.466044,Risque modéré,True,0.0,1.0,GNOLI,,,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,True,1.0,1.0,NAGRE,,,
+COSO,Tami,Savanes,E07,0.08971112259392547,Modéré,27285.246944000002,Risque élevé,True,1.0,1.0,NAGUEYIEGOU,0.0,0.0,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,1.0,1.0,KOUKDAGOU,,,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,1.0,1.0,BOUTASSOUGOU,,,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,1.0,1.0,POMONGUE,,,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,1.0,1.0,DASSOUTE-BAGOU,,,
+COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,1.0,1.0,DJABIENE,,,
+COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,1.0,1.0,KOUNDOUNGOU 1,0.0,0.0,
+COSO,Tamongue,Savanes,E06,0.08099052721406387,Modéré,25918.681132,Risque élevé,True,1.0,1.0,WANTAMBONGUE 1,,,
+COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,True,1.0,1.0,SIGUIBAGOU 2,,,
+COSO,Doukpergou,Savanes,E06,0.06699760876956708,Faible,7683.922928,Risque élevé,True,1.0,1.0,LARSIOK,0.0,0.0,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque modéré,True,0.0,1.0,SANPEDIGBENDE 2,0.0,0.0,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,1.0,1.0,NASSIEGOU,,,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,1.0,1.0,KPIMONE,,,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,1.0,1.0,FALNAGUE 1,,,
+COSO,Naki-Ouest,Savanes,E07,0.1395996130609366,Élevé,29006.828232000003,Risque élevé,True,1.0,1.0,NAKPALI 2,,,
+COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,1.0,1.0,TAMBINAMONE,,,
+COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,1.0,1.0,KOUWAKOU,,,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,NABILE,,,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,NADJANKARKOU,0.0,0.0,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,SAKOU,,,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,DJEBOURI,,,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque modéré,True,1.0,0.0,WOGOU/VILLAGE,0.0,0.0,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,FIEGOU,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,TONTONDI,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,BAKANOU,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,NATCHITONI,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,TCHANKPERE,0.0,0.0,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,NAMOUMALE,0.0,0.0,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,KPENTCHANI,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,TCHINTCHEREGA,0.0,0.0,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,MOGOU CENTRE,0.0,0.0,
+COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,0.0,0.0,BOMWAÏ,0.0,0.0,
+COSO,Kétao,Kara,D03,0.07232753426924222,Faible,14046.64716,Faible risque,True,0.0,0.0,BOMWAÏ,0.0,0.0,
+COSO,Poissongui,Savanes,E07,0.08534795074679136,Modéré,7223.48227,Risque élevé,True,1.0,1.0,POISSONGUI 1,0.0,0.0,
+COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Risque élevé,True,1.0,1.0,POGNO CENTRE,0.0,0.0,
+COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque élevé,True,1.0,1.0,NALI CENTRE,,,
+COSO,Galangashie,Savanes,E04,0.1535981720884317,Élevé,13586.156,Risque élevé,True,1.0,1.0,GALANGASHIE CENTRE,0.0,0.0,
+COSO,Sangou,Savanes,E06,0.04103111557416093,Faible,4302.68124,Risque élevé,True,1.0,1.0,SANGOU CENTRE,,,
+COSO,Kourientre,Savanes,E07,0.09666331165725656,Modéré,11143.930556000001,Risque élevé,True,1.0,1.0,KOURIENTRE CENTRE,,,
+COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,1.0,1.0,KORBONGOU CENTRE,,,
+COSO,Mogou,Savanes,E05,0.07768816270451119,Faible,16910.616,Risque élevé,True,1.0,1.0,GBETI,,,
+COSO,Boadé,Savanes,E01,0.19562829290221415,Élevé,46270.254552,Risque élevé,True,1.0,1.0,KASSOU 1,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,SAFOBE 2,0.0,0.0,
+COSO,Nali,Savanes,E05,0.0786501700300937,Faible,9649.76,Risque modéré,True,0.0,1.0,TOULEBA,,,
+COSO,Lotogou,Savanes,E07,0.08064929400306683,Modéré,14368.997732000002,Risque élevé,True,1.0,1.0,TCHANGUI,,,
+COSO,Sanfatoute,Savanes,E07,0.0695457727810199,Faible,9150.518297,Risque modéré,True,1.0,0.0,TIDONTE CENTRE,0.0,0.0,
+COSO,Tchamonga,Savanes,E05,0.16303100343295712,Élevé,25849.078,Risque élevé,True,1.0,1.0,DAKPALI 1,,,
+COSO,Pogno,Savanes,E03,0.07935431523311563,Modéré,19484.478752,Risque élevé,True,1.0,1.0,EDOGA 2,0.0,0.0,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,DJOULE-TCHAMONGA,,,
+COSO,Gando,Savanes,E05,0.09015667302148637,Modéré,27533.431500000002,Risque élevé,True,1.0,1.0,N'GAMBI,,,
+COSO,Korbongou,Savanes,E07,0.09691527854716563,Modéré,47598.911181,Risque élevé,True,1.0,1.0,KORBONGOU CENTRE,,,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,BONDANTCHALE (SAM-NABA),0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,SALAMOU,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,YANGBONGBONGUE,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,TINTARGUINE 2,0.0,0.0,
+COSO,Sam-Naba,Savanes,E01,0.07634589956315013,Faible,9367.473667,Risque élevé,True,1.0,1.0,TINTARGUINE 1,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,BOUSSANGA 1,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,GOYAMBA 1,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,GOYAMBA 2,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,0.0,0.0,KALYADA,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,KOMOULOGOU 2,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,KOWONGO,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,0.0,0.0,KPALBIAGA 1,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,KPALBIAGA 2,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,0.0,0.0,NONLEDE,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,PIZOSGO 1,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,POGOYOGO 2,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,SIAMBIN,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Faible risque,True,0.0,0.0,WOMNOGO,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque modéré,True,0.0,1.0,GANGA,,,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,KPÉKIBONGUE,0.0,0.0,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,SANDJAK 2,,,
+COSO,,Savanes,,0.09829211963759525,,16893.74207791045,Risque élevé,True,1.0,1.0,NOK-DONG,0.0,0.0,
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Agoè-Nyivé,Maritime,A01,0.4930971372315273,Élevé,358223.442808,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Légbassito,Maritime,A01,0.34328626002598667,Élevé,154480.559802,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vakpossito,Maritime,A01,0.24856343264341363,Élevé,63267.95692700001,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Château de Dikame
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Château de Fidokpui
+TdE,Togblekope,Maritime,A01,0.41444260352557744,Élevé,179199.320921,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,,,Forage B'16Bis
+TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,,,Forage C'10
+TdE,Adétikopé,Maritime,A01,0.22269216254564025,Élevé,52840.089426,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,,,Forage Massekope
+TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Vogan,Maritime,A06,0.24144304608030634,Élevé,58675.742912,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Kpétsou,Maritime,A03,0.08726239604091546,Modéré,13667.775344000001,Non évalué (donnée indisponible),False,,,,,,Forage de Kpessou
+TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Vo-Koutimé,Maritime,A06,0.07552516583013105,Faible,17235.135028,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Togoville,Maritime,A06,0.12052462137294964,Modéré,22257.389248,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Togoville,Maritime,A06,0.12052462137294964,Modéré,22257.389248,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Afagnangan,Maritime,A03,0.2814943944922352,Élevé,17676.188806000002,Non évalué (donnée indisponible),False,,,,,,Forage de Saint Jean de Dieu
+TdE,Agome-Glozou,Maritime,A03,0.09777326439782358,Modéré,11154.366591,Non évalué (donnée indisponible),False,,,,,,Forage du Château de Agbetiko
+TdE,Dagbati,Maritime,A06,0.08746017833982817,Modéré,26317.452928000002,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Dzrékpo,Maritime,A06,0.09080952168892195,Modéré,16098.905780000001,Non évalué (donnée indisponible),False,,,,,,Nsp
+TdE,Aflao-Sagbado,Maritime,A04,0.5363070271574523,Élevé,429551.976791,Non évalué (donnée indisponible),False,,,,,,Forage de Lankouvi
+TdE,Aflao-Sagbado,Maritime,A04,0.5363070271574523,Élevé,429551.976791,Non évalué (donnée indisponible),False,,,,,,Forage de Kleme
+TdE,Aklakou,Maritime,A05,0.12809816331714366,Élevé,16023.308526,Non évalué (donnée indisponible),False,,,,,,Forage de Aklakou
+TdE,Fiata,Maritime,A05,0.08385405217716504,Modéré,21109.450521,Non évalué (donnée indisponible),False,,,,,,Forage de Attoeta
+TdE,Ganavé,Maritime,A05,0.07883543587835735,Faible,13326.048686,Non évalué (donnée indisponible),False,,,,,,Forage de Fiata
+TdE,Dalavé,Maritime,A08,0.21194754158122667,Élevé,24395.010801,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Dalavé,Maritime,A08,0.21194754158122667,Élevé,24395.010801,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Gbatopé,Maritime,A08,0.09163910686267604,Modéré,17898.923668,Non évalué (donnée indisponible),False,,,,,,Forage
+TdE,Tchamba,Centrale,C04,0.2408882202204571,Élevé,51412.713723,Non évalué (donnée indisponible),False,,,,,,Larini
+TdE,Agbodrafo,Maritime,A05,0.49207349082298196,Élevé,89404.008475,Non évalué (donnée indisponible),False,,,,,,Forage de Kpeme
+TdE,Wahala,Plateaux,B07,0.16539548574364726,Élevé,45121.113775,Non évalué (donnée indisponible),False,,,,,,Forage de Château d'Eau

@@ -87,6 +87,19 @@ fig_risque = px.bar(
     labels={"pct": "% d'ouvrages COSO", "region": "", "niveau": ""},
 )
 fig_risque.update_layout(height=400, legend=dict(orientation="h", y=-0.15))
+
+# --- Graphique : existence d'un plan de maintenance (ouvrages COSO) ---
+maintenance = coso_pts_full["maintenance_manquante"].map({0: "Plan existant", 1: "Aucun plan"})
+maintenance = maintenance.fillna("Non renseigne")
+
+fig_maintenance = px.pie(
+    maintenance.value_counts().reset_index(),
+    names="maintenance_manquante", values="count",
+    color="maintenance_manquante",
+    color_discrete_map={"Plan existant": "#1E8A7E", "Aucun plan": "#C0392B", "Non renseigne": "#9AA6A4"},
+    hole=0.5,
+)
+fig_maintenance.update_layout(height=400)
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 app.layout = html.Div([
@@ -94,6 +107,7 @@ app.layout = html.Div([
     dcc.Graph(figure=fig_map, className="m-3"),
     dcc.Graph(figure=fig_couverture, className="m-3"),
     dcc.Graph(figure=fig_risque, className="m-3"),
+    dcc.Graph(figure=fig_maintenance, className="m-3"),
 ])
 
 

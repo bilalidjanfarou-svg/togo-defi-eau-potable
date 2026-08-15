@@ -164,8 +164,10 @@ tde_final["proxy_risque_panne"] = "Non évalué (donnée indisponible)"
 # ----------------------------------------------------------------------------
 colonnes_communes = ["source", "canton_nom", "region", "prefecture_nom", "FRI", "fri_classe",
                      "total_pop", "proxy_risque_panne", "coord_invalide", "geometry"]
+colonnes_coso_only = ["score_statut", "maintenance_manquante"]
+
 points_final = pd.concat([
-    coso_final[colonnes_communes + [c for c in ["location_name", "latitude", "longitude"] if c in coso_final.columns]],
+    coso_final[colonnes_communes + colonnes_coso_only + [c for c in ["location_name", "latitude", "longitude"] if c in coso_final.columns]],
     tde_final[colonnes_communes + [c for c in ["forage_chateau_nom"] if c in tde_final.columns]],
 ], ignore_index=True)
 
