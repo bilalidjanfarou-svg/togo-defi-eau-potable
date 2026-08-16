@@ -37,6 +37,6 @@ COPY . /app
 # Exposer le port
 EXPOSE ${PORT}
 
-# Commande de démarrage (Gunicorn + le serveur Flask de Dash)
-# 'app:server' => module app.py, objet Flask app.server fourni par Dash
-CMD ["gunicorn", "app:server", "--bind", "0.0.0.0:8050", "--workers", "4", "--threads", "2"]
+# Commande de démarrage: lancer Streamlit
+# Utilise la variable d'environnement PORT (définie plus haut) pour la compatibilité
+CMD ["sh","-c","streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0"]
