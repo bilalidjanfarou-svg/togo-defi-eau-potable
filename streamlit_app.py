@@ -28,7 +28,15 @@ BG = "#F5F7F6"
 nb_ouvrages = len(points_full)
 nb_cantons = len(cantons)
 nb_cantons_sans_ouvrage = (cantons["nb_ouvrages"] == 0).sum()
+
+# ensure there is an 'index' property in the GeoJSON properties for featureidkey
+if "index" not in cantons.columns:
+    # preserve existing index by creating a column named 'index'
+    cantons = cantons.reset_index(drop=False)
+# make sure it's a string so feature matching is consistent
+cantons["index"] = cantons["index"].astype(str)
 geojson = json.loads(cantons.to_json())
+
 coso_pts_full = points_full[points_full["source"] == "COSO"]
 
 st.set_page_config(page_title="Diagnostic eau Togo", layout="wide")
@@ -50,12 +58,32 @@ with col2:
 
 tabs = st.tabs(["Cartographie", "Fonctionnalite", "Demographie", "Inondation", "Ventes d'eau", "Recommandations"]) 
 
+# helper to create safe scatter traces from a GeoDataFrame of Points
+def safe_scatter_from_points(df, name, color):
+    if df is None:
+        return None
+    df = df[df.geometry.notnull()].copy()
+    if df.empty:
+        return None
+    # ensure points are Points with x/y
+    try:
+        lats = df.geometry.y
+        lons = df.geometry.x
+    except Exception:
+        return None
+    return go.Scattermapbox(
+        lat=lats, lon=lons, mode="markers",
+        marker=dict(size=7, color=color), name=name,
+        text=df.get("canton_nom", None),
+        hovertemplate=f"<b>{name}</b><br>Canton: %{{text}}<extra></extra>"
+    )
+
 # Tab 1: Cartographie
 with tabs[0]:
     fig_map = px.choropleth_mapbox(
         cantons,
         geojson=geojson,
-        locations=cantons.index,
+        locations=cantons["index"],
         color="nb_ouvrages",
         hover_name="canton_nom",
         hover_data={"region": True, "total_pop": ":,.0f", "nb_ouvrages": True},
@@ -70,19 +98,22 @@ with tabs[0]:
 
     coso_pts = points[points["source"] == "COSO"]
     tde_pts = points[points["source"] == "TdE"]
-    fig_map.add_trace(go.Scattermapbox(
-        lat=coso_pts.geometry.y, lon=coso_pts.geometry.x, mode="markers",
-        marker=dict(size=7, color="#0B3D3A"), name="Ouvrages COSO",
-        text=coso_pts["canton_nom"], hovertemplate="<b>COSO</b><br>Canton: %{text}<extra></extra>",
-    ))
-    fig_map.add_trace(go.Scattermapbox(
-        lat=tde_pts.geometry.y, lon=tde_pts.geometry.x, mode="markers",
-        marker=dict(size=7, color="#D4A62A"), name="Ouvrages TdE",
-        text=tde_pts["canton_nom"], hovertemplate="<b>TdE</b><br>Canton: %{text}<extra></extra>",
-    ))
+
+    trace_coso = safe_scatter_from_points(coso_pts, "Ouvrages COSO", "#0B3D3A")
+    if trace_coso is not None:
+        fig_map.add_trace(trace_coso)
+
+    trace_tde = safe_scatter_from_points(tde_pts, "Ouvrages TdE", "#D4A62A")
+    if trace_tde is not None:
+        fig_map.add_trace(trace_tde)
+
     fig_map.update_layout(title="Repartition des ouvrages par canton", height=600, margin=dict(l=0, r=0, t=40, b=0), legend=dict(orientation="h", y=1.02, x=0))
 
-    st.plotly_chart(fig_map, use_container_width=True)
+    # show map with error handling to avoid client-side crash
+    try:
+        st.plotly_chart(fig_map, use_container_width=True)
+    except Exception as e:
+        st.error(f"Impossible d'afficher la carte : {e}")
 
     couverture = cantons.groupby("region").apply(lambda d: round((d["nb_ouvrages"] == 0).mean() * 100, 1)).reset_index(name="pct_sans_ouvrage").sort_values("pct_sans_ouvrage")
     fig_couverture = px.bar(couverture, x="pct_sans_ouvrage", y="region", orientation="h", text="pct_sans_ouvrage",
@@ -121,25 +152,34 @@ with tabs[2]:
 
 # Tab 4: Inondation
 with tabs[3]:
-    fig_fri = px.choropleth_mapbox(cantons, geojson=geojson, locations=cantons.index, color="FRI",
+    fig_fri = px.choropleth_mapbox(cantons, geojson=geojson, locations=cantons["index"], color="FRI",
                                   hover_name="canton_nom", hover_data={"region": True, "FRI": ":.2f", "nb_ouvrages": True},
                                   color_continuous_scale=[[0, "#EAF4F2"], [0.5, GOLD], [1, "#C0392B"]], mapbox_style="carto-positron",
                                   zoom=6.3, center={"lat": 8.6, "lon": 1.0}, opacity=0.8, featureidkey="properties.index")
-    fig_fri.add_trace(go.Scattermapbox(lat=points.geometry.y, lon=points.geometry.x, mode="markers",
-                                      marker=dict(size=6, color="#0B3D3A"), name="Ouvrages", hovertemplate="Ouvrage<extra></extra>"))
+    # add points safely
+    pts_for_fri = points[points.geometry.notnull()]
+    trace_pts = safe_scatter_from_points(pts_for_fri, "Ouvrages", "#0B3D3A")
+    if trace_pts is not None:
+        fig_fri.add_trace(trace_pts)
     fig_fri.update_layout(margin=dict(l=0, r=0, t=30, b=0), height=600, legend=dict(orientation="h", y=1.02, x=0))
-    st.plotly_chart(fig_fri, use_container_width=True)
+    try:
+        st.plotly_chart(fig_fri, use_container_width=True)
+    except Exception as e:
+        st.error(f"Impossible d'afficher la carte FRI : {e}")
 
 # Tab 5: Ventes d'eau
 with tabs[4]:
-    fig_ventes = px.line(sales, x="annee", y="valeur_m3", color="categorie", labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"}, markers=True, color_discrete_sequence=px.colors.qualitative.Prism)
-    fig_ventes.update_layout(title="Evolution des ventes d'eau par categorie (2018-2022)")
-    derniere_annee = sales["annee"].max()
-    sales_derniere = sales[sales["annee"] == derniere_annee].sort_values("valeur_m3", ascending=True)
-    fig_derniere = px.bar(sales_derniere, x="valeur_m3", y="categorie", orientation="h", labels={"valeur_m3": f"Ventes m3 ({derniere_annee})", "categorie": ""}, color="valeur_m3", color_continuous_scale="Teal")
-    fig_derniere.update_layout(title=f"Ventes par categorie - {derniere_annee}", height=500, coloraxis_showscale=False)
-    st.plotly_chart(fig_ventes, use_container_width=True)
-    st.plotly_chart(fig_derniere, use_container_width=True)
+    try:
+        fig_ventes = px.line(sales, x="annee", y="valeur_m3", color="categorie", labels={"annee": "Annee", "valeur_m3": "Ventes (m3)", "categorie": "Categorie"}, markers=True)
+        fig_ventes.update_layout(title="Evolution des ventes d'eau par categorie (2018-2022)")
+        derniere_annee = sales["annee"].max()
+        sales_derniere = sales[sales["annee"] == derniere_annee].sort_values("valeur_m3", ascending=True)
+        fig_derniere = px.bar(sales_derniere, x="valeur_m3", y="categorie", orientation="h", labels={"valeur_m3": f"Ventes m3 ({derniere_annee})", "categorie": ""}, color="valeur_m3")
+        fig_derniere.update_layout(title=f"Ventes par categorie - {derniere_annee}", height=500, coloraxis_showscale=False)
+        st.plotly_chart(fig_ventes, use_container_width=True)
+        st.plotly_chart(fig_derniere, use_container_width=True)
+    except Exception as e:
+        st.error(f"Erreur lors de la génération des graphiques de ventes : {e}")
 
 # Tab 6: Recommandations
 with tabs[5]:
