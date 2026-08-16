@@ -1,8 +1,8 @@
 streamlit
 plotly
 pandas
-geopandas
-fiona
-shapely
-pyproj
-rtree
+geopandas==0.13.0
+fiona==1.9.3
+shapely==2.0.1
+pyproj==3.6.0
+rtree==0.9.8
